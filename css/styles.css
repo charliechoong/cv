@@ -3,9 +3,6 @@ a {
   text-decoration: none;
 }
 
-div {
-}
-
 h1 {
   font-size: 4rem; /* 16px = 1rem */
   font-family: 'ZCOOL KuaiLe', cursive;
@@ -26,18 +23,23 @@ h3 {
 }
 
 hr {
-  border-style: dotted none none none;
-  border-color: grey;
-  border-width: 5px;
-  margin: 150px auto 150px auto;
-  width: 2.5%;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
 }
 
 body {
+  color: #40514E;
+  font-family: "Merriweather", serif;
   margin: 0;
   margin-top: 0;
   background-color: white;
   text-align: center;
+}
+
+p {
+  line-height: 2;
 }
 
 .ar-image {
@@ -52,11 +54,15 @@ body {
   width: 25%;
 }
 
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
 .top-container {
   background-color: powderblue;
   position: relative;
   padding-top: 100px;
-  margin-bottom: 100px;
 }
 
 .top-cloud {
@@ -71,11 +77,25 @@ body {
 }
 
 .middle-container {
-  margin-bottom: 80px;
+  padding: 100px 0;
 }
 
+.book-img {
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+}
+
+.book {
+  margin: 100px auto 200px auto;
+}
+
+.books {
+  margin: auto;
+  width: 40%;
+}
 .bottom-container {
-  padding: 30px;
+  padding: 50px 0 20px;
   background-color: #66BFBF;
 }
 
@@ -116,7 +136,7 @@ body {
 
 .media-link {
   color: #11999E;
-  padding-left: 20px;
+  padding-left: 40px;
   font-weight: bold;
   text-decoration: none;
 }
